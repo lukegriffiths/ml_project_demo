@@ -48,6 +48,12 @@ def run(fold, model):
 
 
 if __name__ == "__main__":
+    """
+    Example 
+    python train.py --fold 0 --model decision_tree_entropy
+    python train.py --fold 0 --model decision_tree_gini
+    
+    """
     parser = argparse.ArgumentParser()
     parser.add_argument("--fold", type=int)
     parser.add_argument("--model", type=str)
