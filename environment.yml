@@ -1,0 +1,16 @@
+# conda env create -f environment.yml
+name: mlenv
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy
+  - seaborn
+  - matplotlib
+  - pandas
+  - scikit-learn
+  - notebook
+  
+#  - pip:
+#    - Flask-Testing
